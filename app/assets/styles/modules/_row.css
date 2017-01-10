@@ -100,10 +100,12 @@
 
 		@mixin atMedium {
 			display:flex;
+			align-items: flex-start;
 		}
 
 		& > div {
 			display:flex;
+			align-items: flex-start;
 			float:none;
 		}
 	}
