@@ -17,6 +17,16 @@
 		color:$mainBlue;
 	}
 
+	&--less-margin {
+		margin-bottom:0;
+		margin-top:1rem;
+
+		@mixin atSmall {
+		margin-bottom:1.3rem;
+		margin-top:0rem;
+		}
+	}
+
 	&__icon {
 		margin-right:.5rem;
 		display:block;
