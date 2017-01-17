@@ -11674,6 +11674,7 @@
 			key: "outsideModal",
 			value: function outsideModal(el) {
 				if (el.target == this.modal[0]) {
+					console.log(el);
 					this.closeModal();
 				}
 			}
