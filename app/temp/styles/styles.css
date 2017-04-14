@@ -1042,7 +1042,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .no-svg .icon {
-	background-image:url('../../assets/images/sprites/'); 
+	background-image:url('../../assets/images/sprites/sprite-8eb89099.png'); 
 }
 
 .icon--clear-view-escapes { 
